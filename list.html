@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Compras</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <h2>Lista de Compras</h2>
+        <form id="add-item-form">
+            <input type="text" id="item-input" placeholder="Adicionar item" required>
+            <button type="submit">Adicionar</button>
+        </form>
+        <ul id="shopping-list"></ul>
+        <button id="logout-button">Sair</button>
+        <div id="scanner-container">
+            <button id="start-scanner">Escanear Código de Barras</button>
+            <div id="scanner"></div>
+        </div>
+        
+    </div>
+
+    <script src="list.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/quagga/0.12.1/quagga.min.js"></script>
+
+</body>
+</html>

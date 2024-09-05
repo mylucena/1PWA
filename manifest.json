@@ -1,0 +1,11 @@
+{
+    "name": "Lista de Compras",
+    "short_name": "Compras",
+    "description": "Aplicação para cadastro e gerenciamento de lista de compras.",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#e4bba3",
+    "theme_color": "#af795a"
+    
+  }
+  
